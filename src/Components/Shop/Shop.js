@@ -1,6 +1,6 @@
 import React from 'react';
 import Product from '../Product/Product';
-import Card from '../Card/Card';
+// import Card from '../Card/Card';
 import './Shop.css';
 import { useState } from 'react';
 import { useEffect } from 'react';
@@ -13,9 +13,10 @@ const Shop = () => {
    .then(data=>setProducts(data))
  },[])
 
- const addToCart = () => {
-    console.log()
-
+ const addToCart = (product) => {
+    console.log(product)
+    const newCart =[...cart,product];
+    setCart(newCart)
 }
     return (
         <div>
@@ -24,20 +25,30 @@ const Shop = () => {
                
                <div className='products-container'>
                    {
-               products.map(product=><Product key={product.id}
+               products.map(product=><Product
+                 key={product.id}
                product={product}
-               addToCart={addToCart}> </Product>)
+               addToCart={addToCart}
+               > </Product>)
                    }
                    
                </div>
+                    
+                  
+           <div className='order-container'>
+        
+                <h1>hello</h1>
+                  {/* {
+                      cart.map(item=>{
+                        <h1 key={item.id}>{item.name}</h1>
+                    })
+                  }             
+                   */}
+               </div>  
 
-               <div className='order-container'>
-                   <h4>selected item</h4>
-               </div>
+           </div>
 
-            </div>
-
-        </div>
+         </div>
     );
 };
 
@@ -46,3 +57,8 @@ export default Shop;
 
 
 
+//   {/* <Card cart={cart}></Card> */}
+
+// cart.map(item=>{
+//     <h1 key={item.id}>{item.name}</h1>
+// })

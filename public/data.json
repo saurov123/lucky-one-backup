@@ -2,44 +2,65 @@
     {
       "id": "623e2f01143c40fa5dd93ff4",
       "img": "https://www.startech.com.bd/image/cache/catalog/monitor/benq/gw2283/gw2283-500x500.jpg",
-      "price": 21,
+      "price": 11110,
       "eyeColor": "blue",
-      "name": "Vaughn Winters"
+      "name": "BenQ"
     },
     {
       "id": "623e2f01af4b1038395879e8",
       "img": "https://www.startech.com.bd/image/cache/catalog/monitor/asus/vz229he/vz229he-500x500.jpg",
-      "price": 25,
+      "price": 12425,
       "eyeColor": "blue",
-      "name": "Lancaster"
+      "name": "Asus"
     },
     {
       "id": "623e2f012f697d35d8c5edab",
       "img": "https://www.startech.com.bd/image/cache/catalog/monitor/hp-monitor/m22f/m22f-500x500.jpg",
-      "price": 34,
+      "price": 15345,
       "eyeColor": "brown",
-      "name": "Dodson Hansen"
+      "name": "Dell"
     },
     {
       "id": "623e2f012b4f77fa5960f362",
       "img": "https://www.startech.com.bd/image/cache/catalog/monitor/samsung/lf22t350fhnxza/lf22t350fhnxza-500x500.jpg",
-      "price": 39,
+      "price": 13339,
       "eyeColor": "blue",
-      "name": "Ware Barlow"
+      "name": "Samsung"
     },
     {
       "id": "623e2f010e271a2ed2bf03fd",
       "img": "https://www.globalbrand.com.bd/image/cache/catalog/Monitor/dell-se2219hx-22-inch-led-f-600x600.jpg",
-      "price": 32,
+      "price": 10800,
       "eyeColor": "brown",
-      "name": "Harper Weaver"
+      "name": "Dell"
     },
     {
       "id": "623e2f0119e2c7c8618ac9d2",
-      "img": "https://www.gizmochina.com/wp-content/uploads/2019/10/Mi-Display-23-Inch-e1571287896724.jpg",
+      "img": "https://www.startech.com.bd/image/cache/catalog/monitor/xiaomi/redmi-display-1a/redmi-display-1a-1-500x500.jpg",
+      "price": 11125,
+      "eyeColor": "brown",
+      "name": "Redmi"
+    },
+    {
+      "id": "623e2f0119e2c7c8618ac9d21",
+      "img": "https://i5.walmartimages.com/asr/a3b65ac3-e5c7-4e70-a07c-e67feb824414.b484f9e2919e50e60ad1793c949e993e.jpeg?odnHeight=612&odnWidth=612&odnBg=FFFFFF",
       "price": 25,
       "eyeColor": "brown",
-      "name": "Mcfadden Shepard"
+      "name": "Acer"
+    },
+    {
+      "id": "ahsdggyhhhdhhhhdhhhhd",
+      "img": "https://cf.shopee.com.my/file/4905666d06986115b0eb97f018c85089",
+      "price": 11251,
+      "eyeColor": "brown",
+      "name": "Lg"
+    },
+    {
+      "id": "623e2f0119e2c7c8618ac9d2111",
+      "img": "https://www.ryanscomputers.com/storage/products/main/lenovo-d24-20-238-inch-fhd-1920x1080-monitor-11623307961.webp",
+      "price":  12225,
+      "eyeColor": "brown",
+      "name": "Lenovo"
     }
   ]
 
