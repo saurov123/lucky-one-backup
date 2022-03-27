@@ -1,6 +1,6 @@
 .shops-container{
-    margin-top: 20px;
-    background-color:beige;
+    margin-top: 5px;
+    background-color:darkblue;
     display: grid;
     grid-template-columns: 4fr 1fr;
    
@@ -15,7 +15,7 @@
 }
 
 .order-container{
-    background-color:blanchedalmond;
+    background-color:aliceblue;
    margin-left: 15px;
 }
 

@@ -1,8 +1,10 @@
 import React from 'react';
 import './Product.css';
+import { FaShoppingCart } from "react-icons/fa";
 
-const Product = (props) => {
-   const {img,name,price}=props.product;
+const Product = ({product,addToCart}) => {
+   const {img,name,price}=product;
+   
     return (
         <div className="product">
             <div className='product-info'>
@@ -11,7 +13,7 @@ const Product = (props) => {
             <h4>name : {name}</h4>
             
             </div>
-            <button onClick={()=>props.addToCart(props.product)} className='btn-cart'><p>Add to cart</p></button>
+            <button onClick={()=>addToCart(product)} className='btn-cart'><i>Add to cart  </i><FaShoppingCart/></button>
          </div>
         
     );

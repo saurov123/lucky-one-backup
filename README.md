@@ -1,6 +1,6 @@
-# Getting Started with Create React App
+# Monitor-Shop
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## My Project Link: [Monitor-Shop](https://loquacious-dodol-68e37f.netlify.app/).
 
 ## Available Scripts
 

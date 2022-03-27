@@ -1,0 +1,27 @@
+.card {
+    position:sticky;
+    top: 0;
+    padding-left: 30px;
+}
+.card h3 {
+    margin-left: 35px;
+}
+
+.card-info img {
+    width:10px;
+    height: 10px;
+}
+
+.selection-item button {
+    width: 80%;
+    height: 40px;
+    margin-top: 20px;
+    border: none;
+    background-color:blanchedalmond
+    
+}
+
+.selection-item button:hover{
+    background-color:goldenrod;
+}
+

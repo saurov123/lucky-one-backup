@@ -1,4 +1,6 @@
 .header { background-color:aliceblue;
 height: 60px;}
 .header h2 {text-align: center;
-color:black;}
+color:black;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+font-size: 38px;}
